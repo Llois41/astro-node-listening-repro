@@ -1,0 +1,15 @@
+{
+  "name": "astro-node-listening-repro",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@12.10.1",
+  "scripts": {
+    "build": "astro build",
+    "repro": "node repro.mjs",
+    "repro:docker": "sh repro-docker.sh"
+  },
+  "dependencies": {
+    "@astrojs/node": "11.1.6",
+    "astro": "7.3.5"
+  }
+}
